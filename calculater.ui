@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Moon</family>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Calculater</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../../Users/M.ALI/Downloads/calculator.png</normaloff>../../../../../Users/M.ALI/Downloads/calculator.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#232931;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item alignment="Qt::AlignTop">
+       <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>470</width>
+          <height>300</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Moon</family>
+          <pointsize>24</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:#393E46;
+color:white;
+border-radius:50px;
+padding:5px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="indent">
+         <number>-2</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="row_1">
+          <item>
+           <widget class="QPushButton" name="btn_power">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_power{
+	background-color:#4ECCA3;
+border-radius:25px;
+color:white;
+
+}
+#btn_power::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>x²</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_1">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_1{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+}
+#btn_1::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_4">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_4{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+}
+#btn_4::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_7">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_7{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+}
+#btn_7::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_p">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_p{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+}
+#btn_p::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="row_2">
+          <item>
+           <widget class="QPushButton" name="btn_r">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_r{
+	background-color:#4ECCA3;
+border-radius:25px;
+color:white;
+
+}
+#btn_r::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>√</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="btn_2">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_2{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+
+}
+#btn_2::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_5">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_5{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+
+}
+#btn_5::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_8">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_8{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+
+}
+#btn_8::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_0">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_0{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+
+}
+#btn_0::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="row_3">
+          <item>
+           <widget class="QPushButton" name="n">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#n{
+	background-color:#4ECCA3;
+border-radius:25px;
+color:white;
+
+}
+#n::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_3">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_3{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+
+}
+#btn_3::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_6">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_6{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+
+}
+#btn_6::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_9">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Moon</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_9{
+	background-color:#BBBFCA;
+border-radius:25px;
+color:white;
+
+}
+#btn_9::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_e">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_e{
+	background-color:#E84545;
+border-radius:25px;
+color:white;
+
+}
+#btn_e::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>=</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="row_4">
+          <item>
+           <widget class="QPushButton" name="btn_clear">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_clear{
+	background-color:#E84545;
+border-radius:25px;
+color:white;
+
+}
+#btn_clear::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>Clear</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_d">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_d{
+	background-color:#4ECCA3;
+border-radius:25px;
+color:white;
+
+}
+#btn_d::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>÷</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_m">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_m{
+	background-color:#4ECCA3;
+border-radius:25px;
+color:white;
+
+}
+#btn_m::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>×</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_a">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_a{
+	background-color:#4ECCA3;
+border-radius:25px;
+color:white;
+
+}
+#btn_a::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>+</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_s">
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#btn_s{
+	background-color:#4ECCA3;
+border-radius:25px;
+color:white;
+
+}
+#btn_s::hover{
+background-color:#FF2E63;
+color:white;
+}</string>
+            </property>
+            <property name="text">
+             <string>-</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
